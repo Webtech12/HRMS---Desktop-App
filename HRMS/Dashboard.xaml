@@ -36,14 +36,14 @@
                 <DataGrid.Columns>
                     <!-- Add your normal columns here -->
                     <DataGridTextColumn Header="DeviceName" Binding="{Binding DeviceName}"/>
-                    <DataGridTextColumn Header="Status" Binding="{Binding Status}">
-                        <DataGridTextColumn.CellStyle>
-                            <Style TargetType="DataGridCell">
-                                <Setter Property="Background" 
-                                Value="{StaticResource clBr}" />
-                            </Style>
-                        </DataGridTextColumn.CellStyle>
-                    </DataGridTextColumn>
+
+                    <DataGridTemplateColumn Header="Status">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Status}" Width="50" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
 
 
                     <DataGridTemplateColumn Header="Upload" >

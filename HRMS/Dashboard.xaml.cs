@@ -21,7 +21,7 @@ namespace HRMS
             devices.Add(new Devices()
             {
                 DeviceName = "Device 1",
-                Status = "",
+                Status = @"C:\Users\aaa\source\repos\HRMS\HRMS\assets\green light.png",
                 Upload = 80,
 
             });
