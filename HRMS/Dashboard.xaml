@@ -40,7 +40,7 @@
                     <DataGridTemplateColumn Header="Status">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding Status}" Width="50" />
+                                <Image Source="{Binding Status}" Width="20" />
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
