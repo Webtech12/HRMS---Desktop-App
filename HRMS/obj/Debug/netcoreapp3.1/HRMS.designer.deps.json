@@ -40,6 +40,14 @@
             "fileVersion": "106.10.1.0"
           }
         }
+      },
+      "ZKemkeeper/1.0.2": {
+        "runtime": {
+          "lib/Interop.zkemkeeper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -71,6 +79,13 @@
       "sha512": "sha512-MhR4w8LbArVaRA5T/oAR3ZnF852QXtDXRBO84GsvyYzsm7FsjXHJ+JaM8x/nR/B/OCB1WbolGH7hqMT1GZpNJw==",
       "path": "restsharp/106.10.1",
       "hashPath": "restsharp.106.10.1.nupkg.sha512"
+    },
+    "ZKemkeeper/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+ROu82v+uQMHfrlRiGA4RpxV4FyzYASBv9Gp/hVVYJlzONsvDhsD67Xx0cyTJcd5In7EhJz6AkdVEsirH0djA==",
+      "path": "zkemkeeper/1.0.2",
+      "hashPath": "zkemkeeper.1.0.2.nupkg.sha512"
     }
   }
 }

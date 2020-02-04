@@ -43,6 +43,15 @@
         "runtime": {
           "lib/netstandard2.0/RestSharp.dll": {}
         }
+      },
+      "ZKemkeeper/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/Interop.zkemkeeper.dll": {}
+        },
+        "runtime": {
+          "lib/Interop.zkemkeeper.dll": {}
+        }
       }
     }
   },
@@ -145,13 +154,26 @@
         "restsharp.106.10.1.nupkg.sha512",
         "restsharp.nuspec"
       ]
+    },
+    "ZKemkeeper/1.0.2": {
+      "sha512": "x+ROu82v+uQMHfrlRiGA4RpxV4FyzYASBv9Gp/hVVYJlzONsvDhsD67Xx0cyTJcd5In7EhJz6AkdVEsirH0djA==",
+      "type": "package",
+      "path": "zkemkeeper/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Interop.zkemkeeper.dll",
+        "zkemkeeper.1.0.2.nupkg.sha512",
+        "zkemkeeper.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MaterialDesignThemes >= 3.0.1",
       "Newtonsoft.Json >= 12.0.3",
-      "RestSharp >= 106.10.1"
+      "RestSharp >= 106.10.1",
+      "ZKemkeeper >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -202,6 +224,10 @@
           "RestSharp": {
             "target": "Package",
             "version": "[106.10.1, )"
+          },
+          "ZKemkeeper": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           }
         },
         "imports": [
@@ -225,5 +251,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'ZKemkeeper 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "ZKemkeeper",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

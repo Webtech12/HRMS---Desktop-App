@@ -8,6 +8,7 @@ C:\Users\aaa\source\repos\HRMS\HRMS\bin\Debug\netcoreapp3.1\MaterialDesignColors
 C:\Users\aaa\source\repos\HRMS\HRMS\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
 C:\Users\aaa\source\repos\HRMS\HRMS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\aaa\source\repos\HRMS\HRMS\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\aaa\source\repos\HRMS\HRMS\bin\Debug\netcoreapp3.1\Interop.zkemkeeper.dll
 C:\Users\aaa\source\repos\HRMS\HRMS\obj\Debug\netcoreapp3.1\AddDevice.g.cs
 C:\Users\aaa\source\repos\HRMS\HRMS\obj\Debug\netcoreapp3.1\Dashboard.g.cs
 C:\Users\aaa\source\repos\HRMS\HRMS\obj\Debug\netcoreapp3.1\Dashboard1.g.cs
